@@ -1,0 +1,25 @@
+{
+    "name": "omersolmaz45/zoomer2",
+    "description": "Zoomer2",
+    "authors": [
+        {
+            "name": "Omer",
+            "email": "info@coinsystem.net",
+            "role": "Developer"
+        }
+    ],
+    "license": "Apache-2.0",
+    "type": "library",
+    "keywords": [
+        "api",
+        "zoom",
+        "meetings"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {"Zoom\\": ""}
+    }
+}
